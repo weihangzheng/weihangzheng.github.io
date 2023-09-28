@@ -1,12 +1,3 @@
-/* Define CSS Variables */
-:root {
-  --text: #0c0722;
-  --background: #e3ddf8;
-  --primary: #cde278;
-  --secondary: #dff6d5;
-  --accent: #d2a12d;
-}
-
 .profile-pic {
   position: relative;
   max-width:130px;
@@ -50,7 +41,7 @@
   width: 50px;
   height: 50px;
   border: 0;
-  color: #FFFFFF;
+  color: #e3ddf8;
   cursor: pointer;
   font-size: 30px;
   line-height: 70px;
@@ -64,7 +55,7 @@
 }
 
 .linkedin {
-  color: #0077b5;
+  color: #e3ddf8;
 }
 
 .angellist {
@@ -73,11 +64,11 @@
 
 .icon-btn:hover {
   transform: scale(1.10);
-  color: #FFFFFF;
+  color: #e3ddf8;
 }
 
 .linkedin:hover {
-  background-color: #0077b5;
+  background-color: #dff6d5;
 }
 
 .angellist:hover {
@@ -94,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color: #cde278;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -106,14 +97,14 @@
 
 /* .readme:hover{
   color: white;
-  background-color: #00796b;
+  background-color: #cde278;
 } */
 
 .contactme {
   position: relative;
   padding: 11px 35px;
   background: none;
-  color: #fff;
+  color: #e3ddf8;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -125,7 +116,7 @@
 }
 
 .contactme:hover{
-  color: #00796b;
+  color: #d2a12d;
   background-color: white;
 }
 /* main body */
@@ -133,7 +124,7 @@
 /* body-color */
 
 body {
-  color: #333;
+  color: #dff6d5;
   font-size: 18px;
 }
 
@@ -145,18 +136,18 @@ body {
 /* main a -- links */
 
 /* a {
-  color: #009688;
+  color: #e3ddf8;
 } */
 
 a {
-  color: #004d40;
+  color: #d2a12d;
 }
 
 /* main blockqoute */
 
 /* blockquote {
   border-left: 5px solid #795548;
-  color: #795548;
+  color: #0c0722;
   font-size: 125%;
   font-weight: 400;
   margin: 20px 0;
@@ -165,7 +156,7 @@ a {
 
 blockquote {
   border-left: 5px solid #795548;
-  color: #795548;
+  color: #d2a12d;
   font-size: 125%;
   font-weight: 400;
   margin: 20px 0;
@@ -258,7 +249,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 }
 
 /* ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
+  background-color: #dff6d5;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -266,7 +257,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
+  background-color: #dff6d5;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -279,7 +270,7 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+  background-color: #0c0722;
   border-left: 3px solid;
 }
 
@@ -392,12 +383,12 @@ h3 {
 
 .card li a {
   margin-right: 0;
-  color: #333;
+  color: #cde278;
   border-bottom: 2px solid #ffab40;
 }
 
 .card li a:hover {
-  color: #333;
+  color: #dff6d5;
   font-weight: 500;
 }
 
@@ -437,7 +428,7 @@ h3 {
 
 .card-action span {
   font-size: 85%;
-  color: #666;
+  color: #cde278;
 }
 
 .card ul {
@@ -451,7 +442,7 @@ h3 {
 }
 
 .card ul li li {
-  color: #666;
+  color: #cde278;
   font-size: 13px;
 }
 
@@ -611,7 +602,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #d2a12d;
     height: 56px;
     line-height: 56px;
   }
