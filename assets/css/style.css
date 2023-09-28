@@ -41,7 +41,7 @@
   width: 50px;
   height: 50px;
   border: 0;
-  color: #e3ddf8;
+  color: #FFFFFF;
   cursor: pointer;
   font-size: 30px;
   line-height: 70px;
@@ -55,7 +55,7 @@
 }
 
 .linkedin {
-  color: #e3ddf8;
+  color: #0077b5;
 }
 
 .angellist {
@@ -64,11 +64,11 @@
 
 .icon-btn:hover {
   transform: scale(1.10);
-  color: #e3ddf8;
+  color: #FFFFFF;
 }
 
 .linkedin:hover {
-  background-color: #dff6d5;
+  background-color: #0077b5;
 }
 
 .angellist:hover {
@@ -85,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #cde278;
+  color: #00796b;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -97,14 +97,14 @@
 
 /* .readme:hover{
   color: white;
-  background-color: #cde278;
+  background-color: #00796b;
 } */
 
 .contactme {
   position: relative;
   padding: 11px 35px;
   background: none;
-  color: #e3ddf8;
+  color: #fff;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -116,7 +116,7 @@
 }
 
 .contactme:hover{
-  color: #d2a12d;
+  color: #00796b;
   background-color: white;
 }
 /* main body */
@@ -124,7 +124,7 @@
 /* body-color */
 
 body {
-  color: #dff6d5;
+  color: #333;
   font-size: 18px;
 }
 
@@ -136,18 +136,18 @@ body {
 /* main a -- links */
 
 /* a {
-  color: #e3ddf8;
+  color: #009688;
 } */
 
 a {
-  color: #d2a12d;
+  color: #004d40;
 }
 
 /* main blockqoute */
 
 /* blockquote {
   border-left: 5px solid #795548;
-  color: #0c0722;
+  color: #795548;
   font-size: 125%;
   font-weight: 400;
   margin: 20px 0;
@@ -156,7 +156,7 @@ a {
 
 blockquote {
   border-left: 5px solid #795548;
-  color: #d2a12d;
+  color: #795548;
   font-size: 125%;
   font-weight: 400;
   margin: 20px 0;
@@ -249,7 +249,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 }
 
 /* ul.side-nav.fixed li.logo {
-  background-color: #dff6d5;
+  background-color: #fafafa;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -257,7 +257,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #dff6d5;
+  background-color: #fafafa;
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -270,7 +270,7 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #0c0722;
+  background-color: #fafafa;
   border-left: 3px solid;
 }
 
@@ -383,12 +383,12 @@ h3 {
 
 .card li a {
   margin-right: 0;
-  color: #cde278;
+  color: #333;
   border-bottom: 2px solid #ffab40;
 }
 
 .card li a:hover {
-  color: #dff6d5;
+  color: #333;
   font-weight: 500;
 }
 
@@ -428,7 +428,7 @@ h3 {
 
 .card-action span {
   font-size: 85%;
-  color: #cde278;
+  color: #666;
 }
 
 .card ul {
@@ -442,7 +442,7 @@ h3 {
 }
 
 .card ul li li {
-  color: #cde278;
+  color: #666;
   font-size: 13px;
 }
 
@@ -602,7 +602,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #d2a12d;
+    color: #009688;
     height: 56px;
     line-height: 56px;
   }
