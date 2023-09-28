@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid #e3ddf8; 
+  border: 6px solid #d2a12d; 
   border-radius: 50% !important;
 }
 
@@ -51,32 +51,32 @@
 }
 
 .github {
-  color: black;
+  color: #e3ddf8;
 }
 
 .linkedin {
-  color: #cde278;
+  color: #0c0722;
 }
 
 .angellist {
-  color: grey;
+  color: #dff6d5;
 }
 
 .icon-btn:hover {
   transform: scale(1.10);
-  color: #e3ddf8;
+  color: #dff6d5;
 }
 
 .linkedin:hover {
-  background-color: #0c0722;
+  background-color: #d2a12d;
 }
 
 .angellist:hover {
-  background-color: grey;
+  background-color: #0c0722;
 }
 
 .github:hover {
-  background-color: black;
+  background-color: #dff6d5;
 }
 
 /* Buttons - Read Me, Contact Us */
@@ -86,7 +86,7 @@
   padding: 11px 35px;
   background: #0c0722;
   color: #e3ddf8;
-  border: 2px solid #0c0722;
+  border: 2px solid #cde278;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -96,16 +96,16 @@
 }
 
 /* .readme:hover{
-  color: white;
-  background-color: #d2a12d;
+  color: #d2a12d;
+  background-color: #0c0722;
 } */
 
 .contactme {
   position: relative;
   padding: 11px 35px;
   background: none;
-  color: #dff6d5;
-  border: 2px solid #cde278;
+  color: #e3ddf8;
+  border: 2px solid #e3ddf8;
   font-weight: 600;
   font-size: 15px;
   letter-spacing: 1px;
@@ -116,8 +116,8 @@
 }
 
 .contactme:hover{
-  color: #cde278;
-  background-color: white;
+  color: #d2a12d;
+  background-color: #dff6d5;
 }
 /* main body */
 
@@ -129,25 +129,25 @@ body {
 }
 
 /* body {
-  color: black;
+  color: #cde278;
   font-size: 18px;
 } */
 
 /* main a -- links */
 
 /* a {
-  color: #cde278;
+  color: #dff6d5;
 } */
 
 a {
-  color: #dff6d5;
+  color: #cde278;
 }
 
 /* main blockqoute */
 
 /* blockquote {
-  border-left: 5px solid #cde278;
-  color: #cde278;
+  border-left: 5px solid #dff6d5;
+  color: #e3ddf8;
   font-size: 125%;
   font-weight: 400;
   margin: 20px 0;
@@ -155,8 +155,8 @@ a {
 } */
 
 blockquote {
-  border-left: 5px solid #e3ddf8;
-  color: #e3ddf8;
+  border-left: 5px solid #d2a12d;
+  color: #cde278;
   font-size: 125%;
   font-weight: 400;
   margin: 20px 0;
@@ -229,7 +229,7 @@ ul.side-nav li {
 
 /* ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(48, 122, 207);
+  color: #e3ddf8;
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -237,7 +237,7 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
+  color: #e3ddf8;
   display: block;
   line-height: 100%;
   padding: 10px 0 12px;
@@ -250,7 +250,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 
 /* ul.side-nav.fixed li.logo {
   background-color: #0c0722;
-  border-bottom: 1px solid #cde278;
+  border-bottom: 1px solid #e3ddf8;
   box-sizing: content-box;
   min-height: 90px;
   padding: 30px 30px 40px;
@@ -258,7 +258,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 
 ul.side-nav.fixed li.logo {
   background-color: #0c0722;
-  border-bottom: 1px solid #0c0722;
+  border-bottom: 1px solid #cde278;
   box-sizing: content-box;
   min-height: 90px;
   padding: 30px 30px 40px;
@@ -270,12 +270,12 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #dff6d5;
+  background-color: #d2a12d;
   border-left: 3px solid;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #dff6d5 !important;
+  color: #d2a12d;
 }
 
 li.logo span {
@@ -320,12 +320,12 @@ h3 {
 } */
 
 #intro.section {
-  background: #0c0722 repeat;
+  background: #dff6d5 repeat;
   position: relative;
 }
 
 #intro.section .container {
-  color: white;
+  color: #0c0722;
   font-weight: 200;
   left: 0;
   position: absolute;
@@ -344,11 +344,11 @@ h3 {
   /* font-weight: 400; */
   line-height: 150%;
   /* padding: 0 0px; */
-  text-shadow: 1px 1px 5px #e3ddf8;
+  text-shadow: 1px 1px 5px #d2a12d;
 }
 
 #intro.section .underline {
-  border-bottom: 5px solid #dff6d5;
+  border-bottom: 5px solid #e3ddf8;
 }
 
 #intro.section .teal {
@@ -356,7 +356,7 @@ h3 {
 }
 
 .overlay {
-  background-color: #d2a12d;
+  background-color: #dff6d5;
   height: 100%;
   left: 0;
   position: absolute;
@@ -367,7 +367,7 @@ h3 {
 .waves-effect.waves-blue .waves-ripple {
   /* The alpha value allows the text and background color
    of the button to still show through. */
-  background-color: #e3ddf8;
+  background-color: #dff6d5;
 }
 
 .card {
@@ -383,12 +383,12 @@ h3 {
 
 .card li a {
   margin-right: 0;
-  color: #d2a12d;
+  color: #0c0722;
   border-bottom: 2px solid #0c0722;
 }
 
 .card li a:hover {
-  color: #d2a12d;
+  color: #dff6d5;
   font-weight: 500;
 }
 
@@ -414,7 +414,7 @@ h3 {
 }
 
 #experience .card-action {
-  background-color: #dff6d5;
+  background-color: #0c0722;
   border: none;
 }
 
@@ -428,7 +428,7 @@ h3 {
 
 .card-action span {
   font-size: 85%;
-  color: #e3ddf8;
+  color: #cde278;
 }
 
 .card ul {
@@ -469,11 +469,11 @@ a.hoverline {
 /* main a.hoverline */
 
 /* a.hoverline:hover {
-  border-bottom: 3px solid #cde278 !important;
+  border-bottom: 3px solid #e3ddf8 !important;
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #e3ddf8 !important;
+  border-bottom: 3px solid #0c0722 !important;
 }
 
 #skills .card.large {
@@ -481,7 +481,7 @@ a.hoverline:hover {
 }
 
 #skills h4 {
-  border-bottom: 1px solid #d2a12d;
+  border-bottom: 1px solid #cde278;
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
@@ -496,13 +496,13 @@ a.hoverline:hover {
 }
 
 .card.large .card-content p {
-  color: inherit;
+  color: #dff6d5;
   margin: 0;
   padding: 30px 0;
 }
 
 #experience .card-content .row {
-  border-bottom: 1px solid #cde278;
+  border-bottom: 1px solid #e3ddf8;
   padding-bottom: 10px;
 }
 
@@ -543,27 +543,27 @@ small {
 }
 
 .grey-text {
-  color: #0c0722 !important;
+  color: #0c0722;
 }
 
 /* main .teal-text */
 
 .teal-text {
-  color: #cde278 !important;
+  color: #0c0722;
 }
 
 /* .teal-text {
-  color: #cde278 !important;
+  color: #dff6d5;
 } */
 
 /* .teal */
 
 .teal {
-  background-color: #e3ddf8 !important;
+  background-color: #dff6d5;
 }
 
 /* .teal {
-  background-color: #cde278 !important;
+  background-color: #e3ddf8;
 } */
 
 @media (min-width: 1200px) {
@@ -597,12 +597,12 @@ small {
     width: 100%;
   }
   nav {
-    background: #cde278;
+    background: #d2a12d;
     height: 64px;
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #d2a12d;
+    color: #cde278;
     height: 56px;
     line-height: 56px;
   }
