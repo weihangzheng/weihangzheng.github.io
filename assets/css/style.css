@@ -104,7 +104,7 @@
   position: relative;
   padding: 11px 35px;
   background: none;
-  color: #263107;
+  color: #030401;
   border: 2px solid #5726df;
   font-weight: 600;
   font-size: 15px;
@@ -116,7 +116,7 @@
 }
 
 .contactme:hover{
-  color: #5726df;
+  color: #030401;
   background-color: #f2fadc;
 }
 /* main body */
